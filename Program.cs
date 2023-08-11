@@ -3,15 +3,73 @@ namespace main;
 
 public class main
 {
-    
+
     static void Main(string[] args)
     {
-        //real case
-        emailService a = new emailService(new emailSender());
+        // interface defines a contract that all classes inheriting from should follow
+        // it declares what a class should have while an inheritng class defines the implementation
+        Rabbit rabbit = new Rabbit();
+        Hawk hawk = new Hawk();
+        Fish fish = new Fish();
+
+        rabbit.Flee();
+        hawk.Hunt();
+        fish.Flee();
+        fish.Hunt();
+    
+      
+     // interface and testability
+    //real case
+    emailService a = new emailService(new emailSender());
         a.sendEmail("haha");
         //unit test case
         emailService b = new emailService(new mockemailSender());
         b.sendEmail("haha");
+    }
+
+}
+
+// interface benifits: security + multiple inheritances
+
+public interface IPrey
+{
+    // purely declaration without access modifier
+    void Flee();
+}
+public interface IPredator
+{
+    void Hunt();
+}
+
+public class Rabbit : IPrey
+{
+    // provides the implementation from the child class
+public void Flee()
+    {
+        Console.WriteLine("The rabbit runs away!");
+    }
+
+}
+
+public class Hawk : IPredator
+{
+public void Hunt()
+    {
+        Console.WriteLine("The hawk is searching for food!");
+    }
+
+}
+
+public class Fish : IPrey, IPredator
+{
+public void Flee()
+    {
+        Console.WriteLine("The fish runs away!");
+    }
+
+    public void Hunt()
+    {
+        Console.WriteLine("The fish is searching for smaller fishes!");
     }
 }
 
