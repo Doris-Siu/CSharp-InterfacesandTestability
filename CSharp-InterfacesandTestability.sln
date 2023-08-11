@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-InterfacesandTestability", "CSharp-InterfacesandTestability.csproj", "{7859FE9B-C148-4FFB-BF2B-139FA240BD08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesandTestabiltyUnitTests", "..\InterfacesandTestabiltyUnitTests\InterfacesandTestabiltyUnitTests.csproj", "{A9B9B07B-286A-491A-A395-DDC21153DFE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7859FE9B-C148-4FFB-BF2B-139FA240BD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7859FE9B-C148-4FFB-BF2B-139FA240BD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7859FE9B-C148-4FFB-BF2B-139FA240BD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B9B07B-286A-491A-A395-DDC21153DFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B9B07B-286A-491A-A395-DDC21153DFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B9B07B-286A-491A-A395-DDC21153DFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B9B07B-286A-491A-A395-DDC21153DFE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
