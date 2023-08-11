@@ -16,10 +16,15 @@ public class main
         hawk.Hunt();
         fish.Flee();
         fish.Hunt();
-    
-      
-     // interface and testability
-    //real case
+
+
+        // interface and testability
+
+        var orderProcessor = new OrderProcessor();
+        var order = new Order { DatePlaced = DateTime.Now, TotalPrice = 100f}
+        orderProcessor.Process(order);
+
+        //real case
     emailService a = new emailService(new emailSender());
         a.sendEmail("haha");
         //unit test case
@@ -28,6 +33,7 @@ public class main
     }
 
 }
+
 
 // interface benifits: security + multiple inheritances
 
