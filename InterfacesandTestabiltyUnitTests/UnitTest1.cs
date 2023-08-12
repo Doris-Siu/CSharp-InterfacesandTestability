@@ -1,5 +1,4 @@
 ﻿using main;
-using NUnit.Framework;
 namespace InterfacesandTestabiltyUnitTests;
 
 public class Tests

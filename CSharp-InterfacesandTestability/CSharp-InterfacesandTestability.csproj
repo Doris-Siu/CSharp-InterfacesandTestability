@@ -1,0 +1,131 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>CSharp_InterfacesandTestability</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityUnitTest1.cs" />
+    <Compile Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.GlobalUsings.g.cs" />
+    <Compile Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.AssemblyInfo.cs" />
+    <Compile Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityUsings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\InterfacesandTestabiltyUnitTests.csproj.nuget.dgspec.json" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\project.nuget.cache" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\InterfacesandTestabiltyUnitTests.csproj.nuget.g.targets" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\InterfacesandTestabiltyUnitTests.csproj.nuget.g.props" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\project.assets.json" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.assets.cache" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.csproj.CopyComplete" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.csproj.FileListAbsolute.txt" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.csproj.AssemblyReference.cache" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.genruntimeconfig.cache" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.pdb" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.csproj.CoreCompileInputs.cache" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.AssemblyInfoInputs.cache" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\InterfacesandTestabiltyUnitTests.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\ref\InterfacesandTestabiltyUnitTests.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilityobj\Debug\net7.0\refint\InterfacesandTestabiltyUnitTests.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\testcentric.engine.metadata.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\testhost.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\CoverletSourceRootsMapping" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\nunit.engine.core.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\InterfacesandTestabiltyUnitTests.runtimeconfig.json" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\CSharp-InterfacesandTestability.deps.json" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\InterfacesandTestabiltyUnitTests.deps.json" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\nunit.framework.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\CSharp-InterfacesandTestability.runtimeconfig.json" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Microsoft.TestPlatform.CrossPlatEngine.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\CSharp-InterfacesandTestability.pdb" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\nunit.engine.api.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Newtonsoft.Json.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\InterfacesandTestabiltyUnitTests.pdb" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.Common.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\NUnit3.TestAdapter.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\CSharp-InterfacesandTestability.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\nunit.engine.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Microsoft.TestPlatform.CommunicationUtilities.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\nunit_random_seed.tmp" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\Microsoft.TestPlatform.Utilities.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\NUnit3.TestAdapter.pdb" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\NuGet.Frameworks.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\CSharp-InterfacesandTestability" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\InterfacesandTestabiltyUnitTests.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <None Remove="InterfacesandTestabiltyUnitTests\CSharp-InterfacesandTestabilitybin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+  </ItemGroup>
+</Project>
