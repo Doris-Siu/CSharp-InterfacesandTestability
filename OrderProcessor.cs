@@ -1,6 +1,6 @@
 ﻿namespace main
 {
-    internal class OrderProcessor
+    public class OrderProcessor
     {
         private readonly IShippingCalculator _shippingCalculator;
 
