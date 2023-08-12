@@ -27,7 +27,24 @@ public class Tests
                 Throws.TypeOf<InvalidOperationException>());
     }
 
-    
+
+    [Test]
+    public void Process_OrderIsNotShipped_ShouldSetTheShipmentPropertyOfOrder()
+    {
+        var orderProcessor = new OrderProcessor(new FakeShippingCalculator());
+        
+        var order = new Order();
+
+        orderProcessor.Process(order);
+
+        Assert.IsTrue(order.IsShipped);
+        Assert.That(order.Shipment.Cost, Is.EqualTo(1));
+        Assert.That(order.Shipment.ShippingDate, Is.EqualTo(DateTime.Today.AddDays(1)));
+        //Assert.AreEqual(1, order.Shipment.Cost);
+        //Assert.AreEqual(DateTime.Today.Add(1), order.Shipment.ShippingDate);
+
+    }
+
 
 
 
