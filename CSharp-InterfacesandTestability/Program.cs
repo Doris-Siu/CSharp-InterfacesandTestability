@@ -38,9 +38,17 @@ public class main
         var dbMigrator = new DbMigrator(new ConsoleLogger());
         dbMigrator.Migrate();
 
-        // migrate to a file instead of a console by creating a new concrete class
+        // changing behaviour: migrate to a file instead of a console by creating a new concrete class
         //var dbMigrator1 = new DbMigrator(new FileLogger("path"));
         //dbMigrator1.Migrate();
+
+
+        // interfaces and polymorphism
+        var encoder = new VideoEncoder();
+        encoder.RegisterNotificationChannel(new MailNotificationChannel());
+        encoder.RegisterNotificationChannel(new SmsNotificationChannel());
+        encoder.Encode(new Video());
+
     }
 
 }
