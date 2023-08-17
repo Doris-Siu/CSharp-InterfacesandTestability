@@ -37,6 +37,10 @@ public class main
         //interfaces and extensibility
         var dbMigrator = new DbMigrator(new ConsoleLogger());
         dbMigrator.Migrate();
+
+        // migrate to a file instead of a console by creating a new concrete class
+        //var dbMigrator1 = new DbMigrator(new FileLogger("path"));
+        //dbMigrator1.Migrate();
     }
 
 }
