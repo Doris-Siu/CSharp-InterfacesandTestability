@@ -1,4 +1,6 @@
 ﻿
+using CSharp_InterfacesandTestability;
+
 namespace main;
 
 public class main
@@ -30,6 +32,11 @@ public class main
         //unit test case
         emailService b = new emailService(new mockemailSender());
         b.sendEmail("haha");
+
+
+        //interfaces and extensibility
+        var dbMigrator = new DbMigrator(new ConsoleLogger());
+        dbMigrator.Migrate();
     }
 
 }
